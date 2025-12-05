@@ -54,5 +54,5 @@ class Task009Test {
 
         activityScenarioRule.scenario.recreate()
         onView(withId(R.id.titleTextView)).check(doesNotExist())
-    }
+     }
 }
